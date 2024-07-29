@@ -1,4 +1,4 @@
-package log
+package plog
 
 // Formatter is a formatter for log messages.
 type Formatter uint8

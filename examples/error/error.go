@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/charmbracelet/log"
+	"github.com/Malanris/plog"
 )
 
 func main() {

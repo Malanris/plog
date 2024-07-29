@@ -7,14 +7,14 @@ jobs:
     strategy:
       matrix:
         go_version: ["1.19", stable]
-    uses: charmbracelet/meta/.github/workflows/build.yml@main
+    uses: Malanris/meta/.github/workflows/build.yml@main
     with:
       go_version: ${{ matrix.go_version }}
 
   snapshot:
-    uses: charmbracelet/meta/.github/workflows/snapshot.yml@main
+    uses: Malanris/meta/.github/workflows/snapshot.yml@main
     secrets:
       goreleaser_key: ${{ secrets.GORELEASER_KEY }}
 
   coverage:
-    uses: charmbracelet/meta/.github/workflows/coverage.yml@main
+    uses: Malanris/meta/.github/workflows/coverage.yml@main

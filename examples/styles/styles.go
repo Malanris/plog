@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/Malanris/plog"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/charmbracelet/log"
 )
 
 func main() {

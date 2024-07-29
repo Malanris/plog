@@ -1,5 +1,7 @@
 # Log
 
+Fork from <a href="https://github.com/charmbracelet/log">https://github.com/charmbracelet/log</a>
+
 <p>
     <picture>
       <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25087/219742757-c8afe0d9-608a-4845-a555-ef59c0af9ebc.png" width="359">
@@ -42,13 +44,13 @@ readable logging with batteries included.
 Use `go get` to download the dependency.
 
 ```bash
-go get github.com/charmbracelet/log@latest
+go get github.com/Malanris/plog
 ```
 
 Then, `import` it in your Go files:
 
 ```go
-import "github.com/charmbracelet/log"
+import "github.com/Malanris/plog"
 ```
 
 The Charm logger comes with a global package-wise logger with timestamps turned
